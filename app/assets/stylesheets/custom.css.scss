@@ -102,15 +102,6 @@ aside {
   }
 }
 
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
-
-.gravatar_edit {
-  margin-top: 15px;
-}
-
 /* footer */
 
 footer {
@@ -136,6 +127,18 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
   }
 }
 
@@ -189,3 +192,13 @@ input {
   margin-top: 45px;
   @include box_sizing;
 }
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar_edit {
+  margin-top: 15px;
+}
+
